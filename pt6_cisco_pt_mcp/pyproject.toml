@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cisco-pt-mcp"
+version = "0.1.5"
+description = "MCP server that drives Cisco Packet Tracer through a bridge extension."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Muhammad Balawal" }]
+keywords = ["mcp", "model-context-protocol", "cisco", "packet-tracer", "networking", "claude", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: System :: Networking",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "python-socketio>=5.11.0",
+    "aiohttp>=3.9.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.0", "pytest-asyncio>=0.23.0", "build>=1.2.0", "twine>=5.0.0"]
+
+[project.urls]
+Homepage      = "https://github.com/muhammadbalawal/cisco-pt-mcp"
+Repository    = "https://github.com/muhammadbalawal/cisco-pt-mcp"
+Issues        = "https://github.com/muhammadbalawal/cisco-pt-mcp/issues"
+Changelog     = "https://github.com/muhammadbalawal/cisco-pt-mcp/releases"
+
+[project.scripts]
+cisco-pt-mcp = "mcp_server.server:main"
+
+[tool.setuptools.packages.find]
+include = ["mcp_server*"]

@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.log
+*.err.log
+*.out.log
+
+# Packet Tracer project files can be large or coursework-specific.
+*.pkt
+*.pka
+!v1.1.pts
+!*.pts
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

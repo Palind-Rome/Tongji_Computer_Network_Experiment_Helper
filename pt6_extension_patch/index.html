@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Packet Tracer MCP PT6</title>
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      color: #111;
+      background: #fff;
+      margin: 14px;
+    }
+    h1 {
+      font-size: 16px;
+      margin: 0 0 10px 0;
+    }
+    h2 {
+      font-size: 13px;
+      margin: 18px 0 6px 0;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td {
+      padding: 3px 6px 3px 0;
+      vertical-align: top;
+    }
+    .k {
+      color: #555;
+      width: 110px;
+    }
+    .v {
+      font-family: Consolas, monospace;
+    }
+    #status-text {
+      font-weight: bold;
+    }
+    #status-text.connected {
+      color: #148f2b;
+    }
+    #status-text.connecting {
+      color: #9a6a00;
+    }
+    #status-text.offline {
+      color: #b00020;
+    }
+    #log {
+      border: 1px solid #ccc;
+      background: #f7f7f7;
+      height: 220px;
+      overflow: auto;
+      padding: 6px;
+      font-family: Consolas, monospace;
+      font-size: 11px;
+      white-space: pre-wrap;
+    }
+    .ok {
+      color: #148f2b;
+    }
+    .err {
+      color: #b00020;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cisco Packet Tracer MCP PT6 v1.1</h1>
+  <div>Status: <span id="status-text" class="connecting">connecting</span></div>
+
+  <h2>Bridge</h2>
+  <table>
+    <tr><td class="k">Endpoint</td><td class="v" id="endpoint">http://127.0.0.1:7531</td></tr>
+    <tr><td class="k">Client ID</td><td class="v" id="sid">-</td></tr>
+    <tr><td class="k">Tools handled</td><td class="v" id="tool-count">0</td></tr>
+  </table>
+
+  <h2>Activity</h2>
+  <div id="log"></div>
+
+  <p>PT6-side bridge v1.1 - the MCP server runs externally.</p>
+
+  <script src="interface.js"></script>
+</body>
+</html>

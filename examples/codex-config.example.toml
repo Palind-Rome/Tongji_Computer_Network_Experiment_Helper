@@ -1,0 +1,8 @@
+# Copy this block into:
+# C:\Users\<your-user-name>\.codex\config.toml
+#
+# Then replace D:\pt6-cisco-mcp-kit with the real path of this repository.
+
+[mcp_servers.cisco-pt-mcp]
+command = 'D:\pt6-cisco-mcp-kit\.venv\Scripts\python.exe'
+args = ['D:\pt6-cisco-mcp-kit\run_pt6_cisco_pt_mcp.py']
