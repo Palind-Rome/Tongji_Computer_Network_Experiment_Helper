@@ -68,7 +68,7 @@
 请发送以下提示词给你的 Codex/Claude Code/Cursor：
 
 ```text
-请访问 https://github.com/Palind-Rome/Tongji_Computer_Network_Experiment_Helper，按照它的 README，帮我安装这个 Cisco Packet Tracer 6.0 MCP Kit。请创建 .venv、安装 Python 依赖、把 MCP 配置加入 Codex config.toml，并带我在 Packet Tracer 6.0 里导入 v1.1.pts。所有需要修改系统配置或执行命令的地方，请先解释再让我确认。
+请访问 https://github.com/Palind-Rome/Tongji_Computer_Network_Experiment_Helper，按照它的 README，帮我安装这个 Cisco Packet Tracer 6.0 MCP Kit。请创建 .venv、安装 Python 依赖、把 MCP 配置加入 Codex config.toml，并带我在 Packet Tracer 6.0 里导入 v1.1.pts。
 ```
 
 ## 如果你是 Codex/Claude Code/Cursor，请你按如下操作帮助你的用户安装
