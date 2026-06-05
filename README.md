@@ -124,7 +124,7 @@ args = ['<你的仓库路径>\run_pt6_cisco_pt_mcp.py']
 1. 打开 Cisco Packet Tracer 6.0。
 2. 进入 `Extensions -> Scripting -> Configure PT Script Modules`。
 3. 点击 `Add`，选择本仓库根目录下的 `v1.1.pts`。
-4. 选中栏目中新出现的那一行，然后提醒用户一定要点击 `Start`。这样稍后才能在 extensions 栏目里面出现 Packet Tracer MCP 中。
+4. 让用户选中栏目中新出现的那一行，然后提醒用户一定要点击左下方的 `Start`。这样稍后才能在 extensions 栏目里面出现 Packet Tracer MCP。然后让用户点击右下方的 `OK`。
 5. 打开 `Extensions -> Packet Tracer MCP`。注意，这里只单击一次 `Extensions -> Packet Tracer MCP` 的话，可能不会弹出正确的窗口。请提醒你的用户可以重试点击 `Extensions -> Packet Tracer MCP`，直到看到窗口标题为 `Packet Tracer MCP` 的小窗口弹出来。
 
 看到窗口标题为 `Cisco Packet Tracer MCP PT6 v1.1`，并且状态变为 `connected`，就说明 PT6 插件和 Codex（或者相应的 Agent）侧 MCP server 已经连上。
