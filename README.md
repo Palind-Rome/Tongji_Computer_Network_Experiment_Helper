@@ -73,6 +73,8 @@
 
 ## 如果你是 Codex/Claude Code/Cursor，请你按如下操作帮助你的用户安装
 
+**请注意，以下大部分内容以 Codex 为例。如果你不是 Codex，需要按照自己的 MCP 服务器安装范式来进行操作。**
+
 ### 1. 下载仓库
 
 ```powershell
@@ -99,7 +101,7 @@ python -m venv .venv
 
 ### 3. 配置 Codex MCP
 
-如果你是 Codex，请打开 Codex 配置文件：
+**如果你是 Codex**，请打开 Codex 配置文件：
 
 ```text
 C:\Users\<你的用户名>\.codex\config.toml
@@ -113,7 +115,7 @@ command = '<你的仓库路径>\.venv\Scripts\python.exe'
 args = ['<你的仓库路径>\run_pt6_cisco_pt_mcp.py']
 ```
 
-如果你不是 Codex，请把上面 `command` 和 `args` 的路径改成你自己的 MCP server 启动脚本路径。
+**如果你不是 Codex**，请按你自己的 MCP server 启动范式进行安装。请注意，不同的 Agent 可能有不同的 MCP 安装流程。具体的应该在你的 System Prompt 里。
 
 保存后，请提醒你的用户重启 Codex（或者相应的 Agent），并告诉你的用户重启后如果 Codex（或者相应的 Agent）提示是否允许 `cisco-pt-mcp`，请选择允许。
 
