@@ -41,6 +41,10 @@
 
 ![PT6](./image/PT6.png)
 
+示例视频：
+
+https://github.com/user-attachments/assets/f5aa65f7-3088-4ace-a561-97d097685863
+
 # 参考来源
 
 本仓库的 MCP 服务器基于 [cisco-pt-mcp](https://github.com/muhammadbalawal/cisco-pt-mcp) 的源码做 Cisco Packet Tracer 6.0 兼容修改。
